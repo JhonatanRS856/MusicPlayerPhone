@@ -1,0 +1,160 @@
+html{
+    scroll-behavior: smooth;
+}
+
+header #home{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 5px;
+    padding: 8px 12px;
+}
+
+header #home h2{
+    font-size: 25px;
+}
+
+header #home i{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.banner{
+    width: 95%;
+    height: 200px;
+    background-image: url("/imagenes/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 14px auto;
+    border-radius: 22px;
+    box-shadow: 4px 5px 10px rgba(0,0,0,.3);
+}
+
+#reciente {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.text{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 30px;
+    
+}
+
+.ver-mas {
+    display: flex;
+    margin: auto 0;
+}
+
+.text h3{
+    font-size: 20px;
+}
+
+.text a{
+    text-decoration: none;
+    color: grey;
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+.text i{
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+#reciente .cards-cl{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    margin: 10px 0;
+    padding: 10px 0;
+}
+
+.songs p{
+    text-align: center;
+    margin-top: 13px;
+    color: gray;
+}
+
+.songs{
+    margin: 0 auto;
+}
+
+.songs img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+}
+
+.songs .ns{
+    font-weight: bolder;
+    font-size: 18px;
+    color: black;
+} 
+
+
+.text-mv{
+    overflow: hidden;
+    font-size: 17px;
+}
+
+#second-sec{
+    width: 95%;
+    margin: 0 auto;
+}
+
+
+.card-bg{
+    width: 95%;
+    height: 200px;
+    background-image: url("/imagenes/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 14px auto;
+    border-radius: 22px;
+    cursor: pointer;
+    box-shadow: 4px 5px 10px rgba(0,0,0,.3);
+}
+
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.cards .albm{
+    margin: 10px 0;
+    padding: 0px 0 10px 0;
+    background-color: rgb(80, 80, 80);
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 4px 5px 10px rgba(0,0,0,.3);
+}
+
+.albm img{
+    display: block;
+    width: 100%;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+}
+
+
+.cards .info{
+    text-align: center;
+    margin-top: 13px;
+    color: white;
+    padding: 0 10px;
+}
+
