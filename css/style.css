@@ -131,6 +131,7 @@ header #home i{
     display: flex;
     justify-content: space-between;
     gap: 20px;
+    overflow: hidden;
 }
 
 .cards .albm{
@@ -140,6 +141,7 @@ header #home i{
     border-radius: 8px;
     cursor: pointer;
     box-shadow: 4px 5px 10px rgba(0,0,0,.3);
+    transition: transform 0.5s ease;
 }
 
 .albm img{
@@ -150,6 +152,9 @@ header #home i{
     border-radius: 8px 8px 0 0;
 }
 
+.albm:hover{
+    transform: scale(0.95);
+}
 
 .cards .info{
     text-align: center;

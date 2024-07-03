@@ -1,0 +1,29 @@
+
+.wrapper{
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-app{
+    width: 280px;
+    height: 280px;
+    background-image: url("../imagenes/Itunes-music-app-icon.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 70px;
+    box-shadow: 2px 2px 17px rgba(0,0,0,.3);
+}
+.text{
+    width: 300px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.text h2{
+    font-size: 30px;
+}
+
+.text p{
+    margin-top: 16px;
+    font-size: 18px;
+}
